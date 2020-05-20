@@ -14,6 +14,31 @@
       <input type="submit" value="Back" />
     </form>
   </div>
+  <div class="flex-container">
+    <div class="flex-top">
+      <img src="style/img/image.jpg" alt="Image #2">
+      <img src="style/img/image.jpg" alt="Image #1">
+    </div>
+    <img src="style/img/image.jpg" class="flex-center" alt="Image #3">
+    <div class="flex-bottom">
+      <img src="style/img/image.jpg" alt="Image #4">
+      <img src="style/img/image.jpg" alt="Image #5">
+    </div>
+  </div>
+  <div>
+    <form action="#" method="POST" name="addUser">
+      <label for="nickname">Enter your nickname:</label>
+      <input type="text" id="nickname" name="nickname">
+      <label>Select your gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label class="radio-option" for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label class="radio-option" for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label class="radio-option" for="other">Other</label>
+      <button type="submit" class="button" onclick="alert('Form submitted.')">Send</button>
+    </form>
+  </div>
 </body>
 
 </html>
